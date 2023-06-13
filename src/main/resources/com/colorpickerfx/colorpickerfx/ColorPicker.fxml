@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.gluonhq.charm.glisten.control.TextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="243.0" prefWidth="590.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.colorpickerfx.colorpickerfx.controller.ColorController">
+   <children>
+      <Slider fx:id="redColorSlider" layoutX="54.0" layoutY="60.0" max="255.0" prefHeight="23.0" prefWidth="224.0" />
+      <Slider fx:id="greenColorSlider" layoutX="54.0" layoutY="118.0" max="255.0" prefHeight="23.0" prefWidth="224.0" />
+      <Slider fx:id="blueColorSlider" layoutX="54.0" layoutY="172.0" max="255.0" prefHeight="23.0" prefWidth="224.0" />
+      <Label layoutX="45.0" layoutY="42.0" prefHeight="17.0" prefWidth="52.0" text="Red" />
+      <Label layoutX="45.0" layoutY="101.0" prefHeight="17.0" prefWidth="52.0" text="Green" />
+      <Label layoutX="45.0" layoutY="155.0" prefHeight="17.0" prefWidth="52.0" text="Blue" />
+      <TextField fx:id="redColorInput" layoutX="284.0" layoutY="59.0" prefHeight="27.0" prefWidth="43.0" />
+      <TextField fx:id="greenColorInput" layoutX="284.0" layoutY="117.0" prefHeight="27.0" prefWidth="43.0" />
+      <TextField fx:id="blueColorInput" layoutX="284.0" layoutY="171.0" prefHeight="27.0" prefWidth="43.0" />
+      <Pane fx:id="colorRender" layoutX="344.0" layoutY="82.0" prefHeight="75.0" prefWidth="221.0" style="-fx-background-color: black;" />
+      <Label layoutX="360.0" layoutY="17.0" prefHeight="17.0" prefWidth="52.0" text="Hex" />
+      <TextField fx:id="hexaInput" layoutX="370.0" layoutY="40.0" prefHeight="27.0" prefWidth="144.0" />
+      <Pane fx:id="colorRenderVariant4" layoutX="455.0" layoutY="159.0" prefHeight="34.0" prefWidth="36.0" style="-fx-background-color: black;" />
+      <Pane fx:id="colorRenderVariant5" layoutX="492.0" layoutY="159.0" prefHeight="34.0" prefWidth="36.0" style="-fx-background-color: black;" />
+      <Pane fx:id="colorRenderVariant6" layoutX="529.0" layoutY="159.0" prefHeight="34.0" prefWidth="36.0" style="-fx-background-color: black;" />
+      <Pane fx:id="colorRenderVariant1" layoutX="344.0" layoutY="159.0" prefHeight="34.0" prefWidth="36.0" style="-fx-background-color: black;" />
+      <Pane fx:id="colorRenderVariant2" layoutX="381.0" layoutY="159.0" prefHeight="34.0" prefWidth="36.0" style="-fx-background-color: black;" />
+      <Pane fx:id="colorRenderVariant3" layoutX="418.0" layoutY="159.0" prefHeight="34.0" prefWidth="36.0" style="-fx-background-color: black;" />
+   </children>
+</AnchorPane>
